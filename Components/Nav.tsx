@@ -1,4 +1,4 @@
-import { Bars3Icon } from '@heroicons/react/16/solid';
+import { Bars3Icon } from '@heroicons/react/20/solid';
 import React from 'react';
 
 interface Props {
@@ -7,7 +7,7 @@ interface Props {
 
 const Nav = ({ openNav }: Props) => {
 	return (
-		<div className="w-[100%] sticky z-[10000] top-0 h-[10vh] bg-[black] shadow-md">
+		<div className="w-[100%] fixed z-[10000] top-0 h-[10vh] bg-[black] shadow-md">
 			<div className="flex justify-between items-center w-[80%] mx-auto h-[100%]">
 				<h1 className="flex-[0.6] cursor-pointer text-[white] text-[25px] font-bold">
 					TEGUH
