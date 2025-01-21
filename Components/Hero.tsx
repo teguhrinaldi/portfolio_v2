@@ -30,7 +30,10 @@ const Hero = () => {
 					</div>
 				</div>
 				<div className="flex justify-center lg:justify-end items-center">
-					<div className="w-[500px] hidden h-[500px] bg-[#2b2928] relative lg:flex items-center rounded-full">
+					<div
+						data-aos="zoom-in"
+						className="w-[500px] hidden h-[500px] bg-[#2b2928] relative lg:flex items-center rounded-full"
+					>
 						<Image
 							src="/images/teguh21.jpg"
 							alt="user"

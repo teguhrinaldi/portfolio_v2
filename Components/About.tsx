@@ -30,7 +30,10 @@ const About = () => {
 						<ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
 					</button>
 				</div>
-				<div className="lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative">
+				<div
+					data-aos="fade-left"
+					className="lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative md:translate-x-[6rem] lg:translate-x-[12rem]"
+				>
 					<Image
 						src="/images/teguh123.jpg"
 						alt="user"
@@ -38,7 +41,7 @@ const About = () => {
 						objectFit="contain"
 						className="relative z-[11] w-[100%] h-[100%] obeject-contain"
 					/>
-					<div className="absolute w-[80%] h-[100%] z-[10] bg-yellow-600 top-[-2rem] right-[-0.2rem]"></div>
+					<div className="absolute w-[80%] h-[100%] z-[10] bg-yellow-600 top-[-2.5rem] md:right-[-2rem] lg:right-[-0.5rem]"></div>
 				</div>
 			</div>
 		</div>
