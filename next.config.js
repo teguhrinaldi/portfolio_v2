@@ -5,8 +5,8 @@ const nextConfig = {
 	images: {
 		unoptimized: true,
 	},
+	// Hapus assetPrefix
 	basePath: '',
-	trailingSlash: true, // Pastikan trailing slash ditambahkan pada URL
 };
 
 module.exports = nextConfig;
