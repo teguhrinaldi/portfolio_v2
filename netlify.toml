@@ -1,6 +1,7 @@
 [build]
-  command = "npm run build"  # Menjalankan build dan export
-  publish = ".next"  # Menunjuk ke folder out yang dihasilkan oleh next export
+  command = "npm run build && npm run export"
+  publish = "out"
+
 
 
 [context.production.environment]

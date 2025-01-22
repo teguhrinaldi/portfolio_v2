@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	output: 'export',
+	output: 'export', // Pastikan export statis diaktifkan
 	reactStrictMode: true,
 	images: {
 		unoptimized: true,
 	},
-	assetPrefix: './', // Pastikan assetPrefix di sini sesuai
+	assetPrefix: './', // Gunakan './' untuk file yang di-export agar relatif terhadap folder
+	basePath: '', // Tidak perlu basePath jika aplikasi berada di root
 };
 
 module.exports = nextConfig;
