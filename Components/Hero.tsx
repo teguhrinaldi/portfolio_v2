@@ -3,7 +3,7 @@ import React from 'react';
 import Particle from './Particle';
 import TextEffect from './TextEffects';
 import Image from 'next/image';
-import { ArrowDownTrayIcon } from '@heroicons/react/20/solid';
+// import { ArrowDownTrayIcon } from '@heroicons/react/20/solid';
 
 const Hero = () => {
 	return (
@@ -22,12 +22,12 @@ const Hero = () => {
 						passion, I turn every project into a stage to express innovation and
 						inspiration.
 					</p>
-					<div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex-row items-center sm:space-x-6">
+					{/* <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex-row items-center sm:space-x-6">
 						<button className="px-[2rem] hover:bg-yellow-800 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-yellow-400 text-black flex items-center space-x-2  ">
 							<p>Download Cv</p>
 							<ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
 						</button>
-					</div>
+					</div> */}
 				</div>
 				<div className="flex justify-center lg:justify-end items-center">
 					<div
