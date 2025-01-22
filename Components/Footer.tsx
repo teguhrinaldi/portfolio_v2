@@ -18,7 +18,7 @@ const Footer = () => {
 							addres
 						</h1>
 						<p className="text-[17px] w-[90%] text-white opacity-60">
-							Lorem ipsum dolor sit amet.
+							West Java, Bandung
 						</p>
 					</div>
 				</div>

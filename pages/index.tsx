@@ -6,7 +6,7 @@ import Nav from '@/Components/Nav';
 import Projects from '@/Components/Projects';
 import Services from '@/Components/Services';
 import Skills from '@/Components/Skills';
-import Testimonial from '@/Components/Testimonial';
+// import Testimonial from '@/Components/Testimonial';
 import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
