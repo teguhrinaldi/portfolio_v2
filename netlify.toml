@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build"
-  publish = "out"
+  command = "npm run export"  # Ubah menjadi "npm run export"
+  publish = "out"  # Tetap mengarah ke "out", karena itulah hasil dari "next export"
 
 [[redirects]]
   from = "/*"
