@@ -1,6 +1,10 @@
 [build]
-  command = "npm run build && npm run export"  # Menjalankan build dan export
+  command = "npm run build"  # Menjalankan build dan export
   publish = "out"  # Menunjuk ke folder out yang dihasilkan oleh next export
+
+
+[context.production.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
 
 [[redirects]]
   from = "/*"
