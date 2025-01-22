@@ -5,8 +5,7 @@ const nextConfig = {
 	images: {
 		unoptimized: true,
 	},
-	// Hapus assetPrefix
-	basePath: '',
+	assetPrefix: './', // Pastikan assetPrefix di sini sesuai
 };
 
 module.exports = nextConfig;
