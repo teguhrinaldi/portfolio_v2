@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	output: 'export',
-	reactStrictMode: true,
+	output: 'export', // Konfigurasi untuk static export
+	reactStrictMode: true, // Mode strict untuk React
 	images: {
-		unoptimized: true,
+		unoptimized: true, // Diperlukan untuk static export jika menggunakan gambar
 	},
-	assetPrefix: './',
-	basePath: '',
+	assetPrefix: './', // Untuk path relatif
+	basePath: '', // Kosongkan jika tidak menggunakan subdirektori
 };
 
 module.exports = nextConfig;
