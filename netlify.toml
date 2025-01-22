@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build" # Perintah build
-  publish = "out" # Direktori output setelah build
+  command = "npm run build"
+  publish = ".next"
 
 [[redirects]]
   from = "/*"
