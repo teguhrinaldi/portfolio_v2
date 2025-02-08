@@ -6,12 +6,12 @@ const config: Config = {
 		'./pages/**/*.{js,ts,jsx,tsx,mdx}',
 		'./components/**/*.{js,ts,jsx,tsx,mdx}',
 		'./app/**/*.{js,ts,jsx,tsx,mdx}',
-		'./styles/**/*.{css}',
+		'./styles/**/*.{css}', // ✅ Tambahkan kembali jika styling hilang
 	],
 	theme: {
 		extend: {
 			fontFamily: {
-				primary: ['Poppins'],
+				primary: ['Poppins', 'sans-serif'],
 			},
 		},
 	},
