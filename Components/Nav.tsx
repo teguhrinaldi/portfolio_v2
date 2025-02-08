@@ -21,8 +21,6 @@ const Nav = ({ openNav }: Props) => {
 				<h1 className="flex-[0.6] cursor-pointer text-[white] text-[25px] font-bold">
 					TEGUH<span className="text-yellow-400">RINALDI</span>
 				</h1>
-
-				{/* Nav Links dengan Smooth Scrolling */}
 				<div
 					className="nav-link cursor-pointer text-white"
 					onClick={() => scrollToSection('hero')}
@@ -53,8 +51,6 @@ const Nav = ({ openNav }: Props) => {
 				>
 					Contact
 				</div>
-
-				{/* Icon untuk Mobile Navbar */}
 				<div onClick={openNav}>
 					<Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-300" />
 				</div>
