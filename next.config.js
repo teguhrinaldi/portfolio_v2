@@ -1,6 +1,6 @@
-import type { NextConfig } from 'next';
-
-const nextConfig: NextConfig = {
+// @ts-check
+/** @type {import('next').NextConfig} */
+const nextConfig = {
 	output: 'export', // Untuk output statis
 	distDir: 'out', // Netlify akan mencari folder ini
 	images: {
@@ -8,4 +8,4 @@ const nextConfig: NextConfig = {
 	},
 };
 
-export default nextConfig;
+module.exports = nextConfig;

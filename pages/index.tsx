@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import About from '@/Components/About';
 import Footer from '@/Components/Footer';
 import Hero from '@/Components/Hero';
@@ -27,34 +28,45 @@ const HomePage = () => {
 	}, []);
 
 	return (
-		<div className="overflow-x-hidden">
-			<div>
-				<MobileNav nav={nav} closeNav={closeNav} />
-				<Nav openNav={openNav} />
-				<div id="hero">
-					<Hero />
-				</div>
-				<div className="relative z-[30]">
-					<div id="about">
-						<About />
+		<>
+			<Head>
+				<title>My Portfolio 🚀 | Frontend Developer</title>
+				<meta
+					name="description"
+					content="Portofolio saya dengan Next.js dan Tailwind CSS"
+				/>
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+			</Head>
+
+			<div className="overflow-x-hidden">
+				<div>
+					<MobileNav nav={nav} closeNav={closeNav} />
+					<Nav openNav={openNav} />
+					<div id="hero">
+						<Hero />
 					</div>
-					<div id="services">
-						<Services />
+					<div className="relative z-[30]">
+						<div id="about">
+							<About />
+						</div>
+						<div id="services">
+							<Services />
+						</div>
+						<div id="skills">
+							<Skills />
+						</div>
+						<div id="projects">
+							<Projects />
+						</div>
+						<div id="contact">
+							<Contact />
+						</div>
+						<Social />
+						<Footer />
 					</div>
-					<div id="skills">
-						<Skills />
-					</div>
-					<div id="projects">
-						<Projects />
-					</div>
-					<div id="contact">
-						<Contact />
-					</div>
-					<Social />
-					<Footer />
 				</div>
 			</div>
-		</div>
+		</>
 	);
 };
 
